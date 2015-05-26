@@ -1,0 +1,161 @@
+body {
+	font-family: 'Open Sans', sans-serif; 
+}
+/*
+.grid_9 { background: red; }
+.grid_6 { background: orange; }
+.container_24 { background: green; }
+*/
+/*
+ ***********************
+ *	=miscellaneous 
+ ***********************
+*/
+.container_24 {
+	margin-top: 10px;
+}
+blockquote {
+	position: relative;
+}
+blockquote, blockquote p {
+	font-size: 15px;
+	line-height: 20px;
+	font-style: italic;
+	color: #0E0E0E;
+}
+p {
+	font-size: 13px;
+	line-height: 20px;
+	color: #353535;
+}
+
+h1, h3 {
+	letter-spacing: -1px;
+}
+h3 {
+	font-size: 26px;
+	text-transform: lowercase;
+	border-bottom: 1px solid #D1D1D1;
+	padding-bottom: 20px;
+	line-height: 20px;
+}
+a {
+	color: #7E7E7E;
+	text-decoration: none;
+}
+a:hover, .selected {
+	color: #000;
+}
+li {
+	margin-left: 24px;
+}
+.button {
+	background: #242424;
+	padding: 6px;
+	text-transform: uppercase;
+	color: #FFF;
+	font-size: 11px;
+}
+.button:hover {
+	background: #000;
+	color: #FFF;
+}
+
+/*
+ ***********************
+ *	=banner
+ ***********************
+*/
+.banner {
+	background: url(../img/city-bg.jpg) no-repeat;
+	width: 639px;
+	height: 245px;
+	position: relative;
+}
+.banner h2 {
+	color: white;
+	font-size: 28px;
+	width: 400px;
+	font-weight: normal;
+	text-transform: lowercase;
+	padding: 0 10px 0;
+	position: absolute;
+	bottom: -10px;
+	left: 10px;
+	background: rgba(0, 0, 0, .5);
+}
+.callout {
+	background: #000;
+	height: 245px;
+}
+
+/*
+ ***********************
+ *	=header
+ ***********************
+*/
+header {
+	overflow: hidden;
+}
+header .logo {
+	float: left;
+	margin: 10px 10px 12px 5px;
+}
+
+/*
+ ***********************
+ *	=navigation
+ ***********************
+*/
+nav {
+	float: right;
+	margin-top: 20px;
+}
+nav li {
+	display: inline;
+}
+nav a {
+	text-transform: lowercase;
+}
+
+/*
+ ***********************
+ *	=main
+ ***********************
+*/
+.main {
+	margin-top: 20px;
+}
+blockquote p {
+	padding-left: 30px;
+}
+.main blockquote p:before,
+.main blockquote p:after {
+	font-size: 40px;
+	color: #BFBFBF;
+}
+.main blockquote p:first-child:before {
+	content: '“';
+	position: absolute;
+	top: 5px;
+	left: 0;
+}
+.main blockquote p:last-child:after {
+	content: '”';
+	float: right;
+	position: absolute;
+	bottom: -5px;
+	right: 0;
+}
+
+/*
+ ***********************
+ *	=footer
+ ***********************
+*/
+footer {
+	clear: both;
+	border-top: 1px solid #D1D1D1;
+	padding: 20px 0 0;
+	margin-top: 30px;
+}
